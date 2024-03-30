@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# 以下は必要に応じて追加
+# https://pyinstaller.readthedocs.io/en/stable/spec-files.html#data-files
+/dist/
+/build/
+/*.spec
+
+# pycache
+__pycache__/
+
+# env
+.env
+
+# IDE settings
+.idea/
+.vscode/
+
+# 環境に依存するファイル
+/.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Mac OSX files
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# venv
+venv/
+
+
+# Style-Bert-VITS2
+__pycache__/
+venv/
+.venv/
+dist/
+.coverage
+.ipynb_checkpoints/
+.ruff_cache/
+
+/*.yml
+!/default_config.yml
+/bert/*/*.bin
+/bert/*/*.h5
+/bert/*/*.model
+/bert/*/*.safetensors
+/bert/*/*.msgpack
+
+/pretrained/*.safetensors
+/pretrained/*.pth
+
+/pretrained_jp_extra/*.safetensors
+/pretrained_jp_extra/*.pth
+
+/slm/*/*.bin
+
+/scripts/test/
+/scripts/lib/
+/scripts/Style-Bert-VITS2/
+/scripts/sbv2/
+*.zip
+*.csv
+*.bak
+/mos_results/
+
+safetensors.ipynb
+*.wav
+/static/
+
+# pyopenjtalk's dictionary
+*.dic

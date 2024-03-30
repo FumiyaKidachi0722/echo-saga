@@ -1,0 +1,34 @@
+Flask==3.0.2
+
+# Style-Bert-VITS2の依存関係。以下は例です。
+
+cmudict
+cn2an
+faster-whisper==0.10.1
+g2p_en
+GPUtil
+gradio==4.23.0
+jieba
+langid
+librosa==0.9.2
+loguru
+matplotlib
+num2words
+numba
+numpy
+psutil
+pyannote.audio>=3.1.0
+pydantic>=2.0
+pyloudnorm
+# pyopenjtalk-prebuilt  # Should be manually uninstalled
+pyopenjtalk-dict
+pypinyin
+pyworld-prebuilt
+PyYAML
+requests
+safetensors
+scipy
+tensorboard
+torch>=2.1
+transformers
+umap-learn
